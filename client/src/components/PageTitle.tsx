@@ -1,11 +1,16 @@
-import { ReactNode } from "react";
+import { PropsWithChildren } from "react";
+import styles from "../styles/modules/title.module.scss";
 
-type PropsWithChildren<P> = P & { children?: ReactNode };
+interface Props
+  extends React.DetailedHTMLProps<
+    React.HTMLAttributes<HTMLParagraphElement>,
+    HTMLParagraphElement
+  > {}
 
-export const PageTitle = ({ children }: PropsWithChildren<{}>) => {
+export const PageTitle = ({ children, ...rest }: PropsWithChildren<Props>) => {
   return (
-    <div>
-      <h1>{children}</h1>
-    </div>
+    <p className={styles.title} {...rest}>
+      {children}
+    </p>
   );
 };
