@@ -10,6 +10,7 @@
 	justify-content: center;
 	align-items: center;
 }
+
 .container {
 	background-color: var(--bg-2);
 	max-width: 500px;
@@ -22,12 +23,13 @@
 	border-radius: 8px;
 	position: relative;
 }
+
 .closeButton {
 	position: absolute;
 	top: -10px;
 	right: 0;
 	transform: translateY(-100%);
-	font-size: 2.5rem;
+	font-size: 1.5rem;
 	padding: 0.5rem;
 	border-radius: 4px;
 	background-color: var(--gray-1);
@@ -43,6 +45,7 @@
 		color: white;
 	}
 }
+
 .formTitle {
 	color: var(--black-1);
 	font-size: 2rem;
@@ -50,6 +53,7 @@
 	margin-bottom: 2rem;
 	text-transform: capitalize;
 }
+
 .form {
 	width: 100%;
 	label {
@@ -67,6 +71,7 @@
 		}
 	}
 }
+
 .buttonContainer {
 	display: flex;
 	justify-content: flex-start;
@@ -74,3 +79,5 @@
 	margin-top: 2rem;
 	gap: 1rem;
 }
+
+

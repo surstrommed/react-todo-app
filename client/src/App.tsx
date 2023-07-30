@@ -1,6 +1,6 @@
-import { AppContent } from "./components/AppContent";
-import { AppHeader } from "./components/AppHeader";
-import { PageTitle } from "./components/PageTitle";
+import { AppContent } from "./components/app/AppContent";
+import { AppHeader } from "./components/app/AppHeader";
+import { PageTitle } from "./components/app/PageTitle";
 import styles from "./styles/modules/app.module.scss";
 
 export const App = () => {

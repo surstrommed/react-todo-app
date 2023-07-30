@@ -1,18 +1,11 @@
 import { PropsWithChildren } from "react";
-
-interface Props
-  extends React.DetailedHTMLProps<
-    React.SelectHTMLAttributes<HTMLSelectElement>,
-    HTMLSelectElement
-  > {
-  mainClassName?: string;
-}
+import { ISelect } from "../../models/select";
 
 export const Select = ({
   mainClassName,
   children,
   ...rest
-}: PropsWithChildren<Props>) => {
+}: PropsWithChildren<ISelect>) => {
   return (
     <select className={mainClassName} {...rest}>
       {children}

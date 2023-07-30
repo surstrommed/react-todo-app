@@ -12,12 +12,14 @@
 		margin-bottom: 0;
 	}
 }
+
 .todoDetails {
 	display: flex;
 	align-items: center;
 	justify-content: flex-start;
 	gap: 1rem;
 }
+
 .svgBox {
 	flex-basis: 25px;
 	flex-shrink: 0;
@@ -41,11 +43,13 @@
 		justify-content: center;
 	}
 }
+
 .texts {
 	display: flex;
 	flex-direction: column;
 	overflow: hidden;
 }
+
 .todoText {
 	word-break: break-all;
 	font-weight: 500;
@@ -57,6 +61,7 @@
 		opacity: 0.7;
 	}
 }
+
 .time {
 	display: block;
 	font-size: 1.2rem;
@@ -64,12 +69,14 @@
 	margin-top: -0.2rem;
 	color: var(--black-2);
 }
+
 .todoActions {
 	display: flex;
 	align-items: center;
 	justify-content: center;
 	gap: 1rem;
 }
+
 .icon {
 	font-size: 2rem;
 	padding: 0.5rem;
